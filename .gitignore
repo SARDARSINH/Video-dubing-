@@ -1,21 +1,12 @@
-.gradle
-**/build/
-!**/src/**/build/
+// For Speech Recognition
+implementation 'com.google.android.gms:play-services-speech:21.0.1'
 
-# Ignore Gradle GUI config
-gradle-app.setting
+// For Google Translate API (Retrofit use karoge to better hai)
+implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
 
-# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
-!gradle-wrapper.jar
+// For Text-to-Speech
+implementation 'androidx.core:core-ktx:1.10.1'
 
-# Avoid ignore Gradle wrappper properties
-!gradle-wrapper.properties
-
-# Cache of project
-.gradletasknamecache
-
-# Eclipse Gradle plugin generated files
-# Eclipse Core
-.project
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
+// FFmpeg Kit (video/audio processing)
+implementation 'com.arthenica:ffmpeg-kit-full:5.1'
